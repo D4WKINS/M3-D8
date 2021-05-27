@@ -22,16 +22,14 @@ try{
 const handleSubmit = async (e) =>{
     e.preventDefault();
 
-    
-
       try {
-          
+          let url = document.getElementById("product-img").value 
           console.log(url)
         const newProduct = {
             name:document.getElementById("product-name").value,
             description: document.getElementById("product-description").value,
             brand: document.getElementById("product-brand").value,
-            imageUrl:document.getElementById("product-img").value ,
+            imageUrl:url,
             price: document.getElementById("product-price").value
           };
 
