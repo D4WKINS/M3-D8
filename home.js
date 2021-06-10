@@ -34,8 +34,6 @@ window.onload = async () =>{
                                                 </div>
                                         </a>`
                                         )
-              
-                
             });
         } )
             
